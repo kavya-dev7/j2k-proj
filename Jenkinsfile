@@ -1,4 +1,5 @@
 pipeline {
+  agent { label 'j2k-worker-node' }
 
   environment {
         registry = "dockerqprofiles/j2k:1.0.0"
